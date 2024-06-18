@@ -80,6 +80,67 @@ namespace PassaPassword
             {
                 richTextBox1.Text = "Ülkemizdeki mareşal unvanı alan iki kişi kimdir?";
                 button10.BackColor = Color.GreenYellow;
+                
+
+            }
+            if (ques == 11)
+            {
+                richTextBox1.Text = "Atatürk Anıtkabir'e taşınmadan önce nerede yattı?";
+                button11.BackColor = Color.GreenYellow;
+
+            }
+            if (ques == 12)
+            {
+                richTextBox1.Text = "Türkiye’nin en yüksek dağı hangisidir?";
+                button12.BackColor = Color.GreenYellow;
+
+            }
+            if (ques == 13)
+            {
+                richTextBox1.Text = "Dünyanın en uzun nehrinin adı nedir?";
+                button13.BackColor = Color.GreenYellow;
+
+            }
+            if (ques == 14)
+            {
+                richTextBox1.Text = "Dünyanın en uzun nehrinin adı nedir?";
+                button14.BackColor = Color.GreenYellow;
+
+            }
+            if (ques == 15)
+            {
+                richTextBox1.Text = "Dünyanın en uzun nehrinin adı nedir?";
+                button15.BackColor = Color.GreenYellow;
+
+            }
+            if (ques == 16)
+            {
+                richTextBox1.Text = "Dünyanın en uzun nehrinin adı nedir?";
+                button16.BackColor = Color.GreenYellow;
+
+            }
+            if (ques == 17)
+            {
+                richTextBox1.Text = "Dünyanın en uzun nehrinin adı nedir?";
+                button17.BackColor = Color.GreenYellow;
+
+            }
+            if (ques == 18)
+            {
+                richTextBox1.Text = "Aya ilk defa kaç yılında ve kim ayak bastı?";
+                button18.BackColor = Color.GreenYellow;
+
+            }
+            if (ques == 19)
+            {
+                richTextBox1.Text = "Atletizmde mesafe olarak en uzun koşuya verilen isim nedir?";
+                button19.BackColor = Color.GreenYellow;
+
+            }
+            if (ques == 20)
+            {
+                richTextBox1.Text = "Dünya kupasını ilk kez kim kazanmıştır?";
+                button20.BackColor = Color.GreenYellow;
 
             }
 
