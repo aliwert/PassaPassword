@@ -16,6 +16,12 @@ namespace PassaPassword
         {
             InitializeComponent();
         }
-
+        int ques = 0, correct = 0, wrong = 0;
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            linkLabel1.Text = "Answer to question";
+            ques++;
+            this.Text = ques.ToString();
+        }
     }
 }

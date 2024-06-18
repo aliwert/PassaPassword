@@ -373,12 +373,13 @@
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.linkLabel1.Location = new System.Drawing.Point(115, 106);
+            this.linkLabel1.Location = new System.Drawing.Point(187, 102);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(251, 31);
+            this.linkLabel1.Size = new System.Drawing.Size(72, 31);
             this.linkLabel1.TabIndex = 0;
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Answer to Question";
+            this.linkLabel1.Text = "Start";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // label1
             // 
