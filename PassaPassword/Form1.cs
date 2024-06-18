@@ -103,25 +103,25 @@ namespace PassaPassword
             }
             if (ques == 14)
             {
-                richTextBox1.Text = "Dünyanın en uzun nehrinin adı nedir?";
+                richTextBox1.Text = "Bilim adamlarının “Kızıl Gezegen” olarak değerlendirdiği gezegen hangisidir?";
                 button14.BackColor = Color.GreenYellow;
 
             }
             if (ques == 15)
             {
-                richTextBox1.Text = "Dünyanın en uzun nehrinin adı nedir?";
+                richTextBox1.Text = "Yüzyıllık Yalnızlık romanıyla tanınan ve 2014 yılı Nisan ayında hayatını kaybeden, Nobel ödüllü edebiyatçı kimdir?";
                 button15.BackColor = Color.GreenYellow;
 
             }
             if (ques == 16)
             {
-                richTextBox1.Text = "Dünyanın en uzun nehrinin adı nedir?";
+                richTextBox1.Text = "986 yılında nükleer bir kazanın gerçekleştiği Çernobil, günümüzde hangi ülkenin sınırları içerisinde yer almaktadır?";
                 button16.BackColor = Color.GreenYellow;
 
             }
             if (ques == 17)
             {
-                richTextBox1.Text = "Dünyanın en uzun nehrinin adı nedir?";
+                richTextBox1.Text = "Atatürk, Geldikleri gibi giderler sözünü nerede söylemiştir?";
                 button17.BackColor = Color.GreenYellow;
 
             }
@@ -141,6 +141,30 @@ namespace PassaPassword
             {
                 richTextBox1.Text = "Dünya kupasını ilk kez kim kazanmıştır?";
                 button20.BackColor = Color.GreenYellow;
+
+            }
+            if (ques == 21)
+            {
+                richTextBox1.Text = "Termessos Antik Kenti hangi şehirde yer alır?";
+                button21.BackColor = Color.GreenYellow;
+
+            }
+            if (ques == 22)
+            {
+                richTextBox1.Text = "Hangi kurum Atatürk döneminde açılmıştır?";
+                button22.BackColor = Color.GreenYellow;
+
+            }
+            if (ques == 23)
+            {
+                richTextBox1.Text = "Güneş sisteminin en büyük gezegeni hangisidir?";
+                button23.BackColor = Color.GreenYellow;
+
+            }
+            if (ques == 24)
+            {
+                richTextBox1.Text = "Düşünen Adam heykeli hangi sanatçının eseridir?";
+                button24.BackColor = Color.GreenYellow;
 
             }
 
