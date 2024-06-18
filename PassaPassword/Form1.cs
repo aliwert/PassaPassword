@@ -17,9 +17,191 @@ namespace PassaPassword
             InitializeComponent();
         }
         int ques = 0, correct = 0, wrong = 0;
+
+        private void textBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Enter)
+            {
+                switch (ques)
+                {
+                    case 1:
+                        if(textBox1.Text == "1.dünya savaşı")
+                        {
+                            button1.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button1.BackColor= Color.Red;
+                        }
+                        break;
+                    case 2:
+                        if(textBox1.Text == "dönüşüm")
+                        {
+                            button2.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button2.BackColor = Color.Red;
+                        }
+                        break;
+                    case 3:
+                        if (textBox1.Text == "lizozom")
+                        {
+                            button2.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button2.BackColor = Color.Red;
+                        }
+                        break;
+                    case 4:
+                        if (textBox1.Text == "monolog")
+                        {
+                            button2.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button2.BackColor = Color.Red;
+                        }
+                        break;
+                    case 5:
+                        if (textBox1.Text == "piri reis")
+                        {
+                            button2.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button2.BackColor = Color.Red;
+                        }
+                        break;
+                    case 6:
+                        if (textBox1.Text == "Japonya Hiroşima Nagasaki")
+                        {
+                            button2.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button2.BackColor = Color.Red;
+                        }
+                        break;
+                    case 7:
+                        if (textBox1.Text == "452")
+                        {
+                            button2.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button2.BackColor = Color.Red;
+                        }
+                        break;
+                    case 8:
+                        if (textBox1.Text == "Cat Stevens")
+                        {
+                            button2.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button2.BackColor = Color.Red;
+                        }
+                        break;
+                    case 9:
+                        if (textBox1.Text == "Şam")
+                        {
+                            button2.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button2.BackColor = Color.Red;
+                        }
+                        break;
+                    case 10:
+                        if (textBox1.Text == "monolog")
+                        {
+                            button2.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button2.BackColor = Color.Red;
+                        }
+                        break;
+                    case 11:
+                        if (textBox1.Text == "Etnografya müzesinde")
+                        {
+                            button2.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button2.BackColor = Color.Red;
+                        }
+                        break;
+                    case 12:
+                        if (textBox1.Text == "Ağrı Dağı")
+                        {
+                            button2.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button2.BackColor = Color.Red;
+                        }
+                        break;
+                    case 13:
+                        if (textBox1.Text == "Nil Nehri")
+                        {
+                            button2.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button2.BackColor = Color.Red;
+                        }
+                        break;
+                    case 14:
+                        if (textBox1.Text == "Mars")
+                        {
+                            button2.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button2.BackColor = Color.Red;
+                        }
+                        break;
+                    case 15:
+                        if (textBox1.Text == "Gabriel García Márquez")
+                        {
+                            button2.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button2.BackColor = Color.Red;
+                        }
+                        break;
+                    case 16:
+                        if (textBox1.Text == "Ukrayna")
+                        {
+                            button2.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button2.BackColor = Color.Red;
+                        }
+                        break;
+                    case 17:
+                        if (textBox1.Text == "İstanbul")
+                        {
+                            button2.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button2.BackColor = Color.Red;
+                        }
+                        break;
+
+                }
+            }
+        }
+
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            linkLabel1.Text = "Answer to question";
+            linkLabel1.Text = "Next Question";
             ques++;
             this.Text = ques.ToString();
             if (ques == 1)
@@ -60,7 +242,7 @@ namespace PassaPassword
             }
             if (ques == 7)
             {
-                richTextBox1.Text = "Futbol maçlarında oynanan topun FİFA kurallarına göre ağırlığı ne kadar olmalıdır?";
+                richTextBox1.Text = "Futbol maçlarında oynanan topun FİFA kurallarına göre ağırlığı kaç gram olmalıdır?";
                 button7.BackColor = Color.GreenYellow;
 
             }
