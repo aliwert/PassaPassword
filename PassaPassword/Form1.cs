@@ -194,7 +194,76 @@ namespace PassaPassword
                             button2.BackColor = Color.Red;
                         }
                         break;
-
+                    case 18:
+                        if (textBox1.Text == "Armstrong")
+                        {
+                            button2.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button2.BackColor = Color.Red;
+                        }
+                        break;
+                    case 19:
+                        if (textBox1.Text == "Maraton")
+                        {
+                            button2.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button2.BackColor = Color.Red;
+                        }
+                        break;
+                    case 20:
+                        if (textBox1.Text == "Uruguay")
+                        {
+                            button2.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button2.BackColor = Color.Red;
+                        }
+                        break;
+                    case 21:
+                        if (textBox1.Text == "Antalya")
+                        {
+                            button2.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button2.BackColor = Color.Red;
+                        }
+                        break;
+                    case 22:
+                        if (textBox1.Text == "Sakarya Meydan Muharebesi" | textBox1.Text == "Başkomutanlık Meydan Muharebesi")
+                        {
+                            button2.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button2.BackColor = Color.Red;
+                        }
+                        break;
+                    case 23:
+                        if (textBox1.Text == "Jüpiter")
+                        {
+                            button2.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button2.BackColor = Color.Red;
+                        }
+                        break;
+                    case 24:
+                        if (textBox1.Text == "Auguste Rodin")
+                        {
+                            button2.BackColor = Color.Green;
+                        }
+                        else
+                        {
+                            button2.BackColor = Color.Red;
+                        }
+                        break;
                 }
             }
         }
@@ -333,7 +402,7 @@ namespace PassaPassword
             }
             if (ques == 22)
             {
-                richTextBox1.Text = "Hangi kurum Atatürk döneminde açılmıştır?";
+                richTextBox1.Text = "Mustafa Kemal Atatürk'e hangi savastan sonra gazilik ve maresallik unvani verilmistir? ";
                 button22.BackColor = Color.GreenYellow;
 
             }
