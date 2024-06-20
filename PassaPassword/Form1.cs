@@ -170,13 +170,13 @@ namespace PassaPassword
                     case 11:
                         if (textBox1.Text == "Etnografya müzesinde")
                         {
-                            button2.BackColor = Color.Green;
+                            button11.BackColor = Color.Green;
                             correct++;
                             label2.Text = correct.ToString();
                         }
                         else
                         {
-                            button2.BackColor = Color.Red;
+                            button11.BackColor = Color.Red;
                             wrong++;
                             label4.Text = correct.ToString();
                         }
@@ -184,13 +184,13 @@ namespace PassaPassword
                     case 12:
                         if (textBox1.Text == "Ağrı Dağı")
                         {
-                            button2.BackColor = Color.Green;
+                            button12.BackColor = Color.Green;
                             correct++;
                             label2.Text = correct.ToString();
                         }
                         else
                         {
-                            button2.BackColor = Color.Red;
+                            button12.BackColor = Color.Red;
                             wrong++;
                             label4.Text = correct.ToString();
                         }
@@ -198,13 +198,13 @@ namespace PassaPassword
                     case 13:
                         if (textBox1.Text == "Nil Nehri")
                         {
-                            button2.BackColor = Color.Green;
+                            button13.BackColor = Color.Green;
                             correct++;
                             label2.Text = correct.ToString();
                         }
                         else
                         {
-                            button2.BackColor = Color.Red;
+                            button13.BackColor = Color.Red;
                             wrong++;
                             label4.Text = correct.ToString();
                         }
@@ -212,14 +212,14 @@ namespace PassaPassword
                     case 14:
                         if (textBox1.Text == "Mars")
                         {
-                            button2.BackColor = Color.Green;
+                            button14.BackColor = Color.Green;
                             correct++;
                             label2.Text = correct.ToString();
 
                         }
                         else
                         {
-                            button2.BackColor = Color.Red;
+                            button14.BackColor = Color.Red;
                             wrong++;
                             label4.Text = correct.ToString();
                         }
@@ -227,13 +227,13 @@ namespace PassaPassword
                     case 15:
                         if (textBox1.Text == "Gabriel García Márquez")
                         {
-                            button2.BackColor = Color.Green;
+                            button15.BackColor = Color.Green;
                             correct++;
                             label2.Text = correct.ToString();
                         }
                         else
                         {
-                            button2.BackColor = Color.Red;
+                            button15.BackColor = Color.Red;
                             wrong++;
                             label4.Text = correct.ToString();
                         }
@@ -241,13 +241,13 @@ namespace PassaPassword
                     case 16:
                         if (textBox1.Text == "Ukrayna")
                         {
-                            button2.BackColor = Color.Green;
+                            button16.BackColor = Color.Green;
                             correct++;
                             label2.Text = correct.ToString();
                         }
                         else
                         {
-                            button2.BackColor = Color.Red;
+                            button16.BackColor = Color.Red;
                             wrong++;
                             label4.Text = correct.ToString();
                         }
@@ -255,13 +255,13 @@ namespace PassaPassword
                     case 17:
                         if (textBox1.Text == "İstanbul")
                         {
-                            button2.BackColor = Color.Green;
+                            button17.BackColor = Color.Green;
                             correct++;
                             label2.Text = correct.ToString();
                         }
                         else
                         {
-                            button2.BackColor = Color.Red;
+                            button17.BackColor = Color.Red;
                             wrong++;
                             label4.Text = correct.ToString();
                         }
@@ -269,13 +269,13 @@ namespace PassaPassword
                     case 18:
                         if (textBox1.Text == "Armstrong")
                         {
-                            button2.BackColor = Color.Green;
+                            button18.BackColor = Color.Green;
                             correct++;
                             label2.Text = correct.ToString();
                         }
                         else
                         {
-                            button2.BackColor = Color.Red;
+                            button18.BackColor = Color.Red;
                             wrong++;
                             label4.Text = correct.ToString();
                         }
@@ -283,13 +283,13 @@ namespace PassaPassword
                     case 19:
                         if (textBox1.Text == "Maraton")
                         {
-                            button2.BackColor = Color.Green;
+                            button19.BackColor = Color.Green;
                             correct++;
                             label2.Text = correct.ToString();
                         }
                         else
                         {
-                            button2.BackColor = Color.Red;
+                            button19.BackColor = Color.Red;
                             wrong++;
                             label4.Text = correct.ToString();
                         }
@@ -297,13 +297,13 @@ namespace PassaPassword
                     case 20:
                         if (textBox1.Text == "Uruguay")
                         {
-                            button2.BackColor = Color.Green;
+                            button20.BackColor = Color.Green;
                             correct++;
                             label2.Text = correct.ToString();
                         }
                         else
                         {
-                            button2.BackColor = Color.Red;
+                            button20.BackColor = Color.Red;
                             wrong++;
                             label4.Text = correct.ToString();
                         }
@@ -311,13 +311,13 @@ namespace PassaPassword
                     case 21:
                         if (textBox1.Text == "Antalya")
                         {
-                            button2.BackColor = Color.Green;
+                            button21.BackColor = Color.Green;
                             correct++;
                             label2.Text = correct.ToString();
                         }
                         else
                         {
-                            button2.BackColor = Color.Red;
+                            button21.BackColor = Color.Red;
                             wrong++;
                             label4.Text = correct.ToString();
                         }
@@ -325,13 +325,13 @@ namespace PassaPassword
                     case 22:
                         if (textBox1.Text == "Sakarya Meydan Muharebesi" | textBox1.Text == "Başkomutanlık Meydan Muharebesi")
                         {
-                            button2.BackColor = Color.Green;
+                            button22.BackColor = Color.Green;
                             correct++;
                             label2.Text = correct.ToString();
                         }
                         else
                         {
-                            button2.BackColor = Color.Red;
+                            button22.BackColor = Color.Red;
                             wrong++;
                             label4.Text = correct.ToString();
                         }
@@ -339,13 +339,13 @@ namespace PassaPassword
                     case 23:
                         if (textBox1.Text == "Jüpiter")
                         {
-                            button2.BackColor = Color.Green;
+                            button23.BackColor = Color.Green;
                             correct++;
                             label2.Text = correct.ToString();
                         }
                         else
                         {
-                            button2.BackColor = Color.Red;
+                            button23.BackColor = Color.Red;
                             wrong++;
                             label4.Text = correct.ToString();
                         }
@@ -353,13 +353,13 @@ namespace PassaPassword
                     case 24:
                         if (textBox1.Text == "Auguste Rodin")
                         {
-                            button2.BackColor = Color.Green;
+                            button24.BackColor = Color.Green;
                             correct++;
                             label2.Text = correct.ToString();
                         }
                         else
                         {
-                            button2.BackColor = Color.Red;
+                            button24.BackColor = Color.Red;
                             wrong++;
                             label4.Text = correct.ToString();
                         }
