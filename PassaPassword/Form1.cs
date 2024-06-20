@@ -28,240 +28,340 @@ namespace PassaPassword
                         if(textBox1.Text == "1.dünya savaşı")
                         {
                             button1.BackColor = Color.Green;
+                            correct++;
+                            label2.Text = correct.ToString();
                         }
                         else
                         {
                             button1.BackColor= Color.Red;
+                            wrong++;
+                            label4.Text = correct.ToString();
                         }
                         break;
                     case 2:
                         if(textBox1.Text == "dönüşüm")
                         {
                             button2.BackColor = Color.Green;
+                            correct++;
+                            label2.Text = correct.ToString();
                         }
                         else
                         {
                             button2.BackColor = Color.Red;
+                            wrong++;
+                            label4.Text = correct.ToString();
                         }
                         break;
                     case 3:
                         if (textBox1.Text == "lizozom")
                         {
-                            button2.BackColor = Color.Green;
+                            button3.BackColor = Color.Green;
+                            correct++;
+                            label2.Text = correct.ToString();
                         }
                         else
                         {
-                            button2.BackColor = Color.Red;
+                            button3.BackColor = Color.Red;
+                            wrong++;
+                            label4.Text = correct.ToString();
                         }
                         break;
                     case 4:
                         if (textBox1.Text == "monolog")
                         {
-                            button2.BackColor = Color.Green;
+                            button4.BackColor = Color.Green;
+                            correct++;
+                            label2.Text = correct.ToString();
+                            wrong++;
+                            label4.Text = correct.ToString();
                         }
                         else
                         {
-                            button2.BackColor = Color.Red;
+                            button4.BackColor = Color.Red;
                         }
                         break;
                     case 5:
                         if (textBox1.Text == "piri reis")
                         {
-                            button2.BackColor = Color.Green;
+                            button5.BackColor = Color.Green;
+                            correct++;
+                            label2.Text = correct.ToString();
                         }
                         else
                         {
-                            button2.BackColor = Color.Red;
+                            button5.BackColor = Color.Red;
+                            wrong++;
+                            label4.Text = correct.ToString();
                         }
                         break;
                     case 6:
                         if (textBox1.Text == "Japonya Hiroşima Nagasaki")
                         {
-                            button2.BackColor = Color.Green;
+                            button6.BackColor = Color.Green;
+                            correct++;
+                            label2.Text = correct.ToString();
                         }
                         else
                         {
-                            button2.BackColor = Color.Red;
+                            button6.BackColor = Color.Red;
+                            wrong++;
+                            label4.Text = correct.ToString();
                         }
                         break;
                     case 7:
                         if (textBox1.Text == "452")
                         {
-                            button2.BackColor = Color.Green;
+                            button7.BackColor = Color.Green;
+                            correct++;
+                            label2.Text = correct.ToString();
+                     
                         }
                         else
                         {
-                            button2.BackColor = Color.Red;
+                            button7.BackColor = Color.Red;
+                            wrong++;
+                            label4.Text = correct.ToString();
                         }
                         break;
                     case 8:
                         if (textBox1.Text == "Cat Stevens")
                         {
-                            button2.BackColor = Color.Green;
+                            button8.BackColor = Color.Green;
+                            correct++;
+                            label2.Text = correct.ToString();
                         }
                         else
                         {
-                            button2.BackColor = Color.Red;
+                            button8.BackColor = Color.Red;
+                            wrong++;
+                            label4.Text = correct.ToString();
                         }
                         break;
                     case 9:
                         if (textBox1.Text == "Şam")
                         {
-                            button2.BackColor = Color.Green;
+                            button9.BackColor = Color.Green;
+                            correct++;
+                            label2.Text = correct.ToString();
+                            wrong++;
+                            label4.Text = correct.ToString();
                         }
                         else
                         {
-                            button2.BackColor = Color.Red;
+                            button9.BackColor = Color.Red;
+                            wrong++;
+                            label4.Text = correct.ToString();
                         }
                         break;
                     case 10:
                         if (textBox1.Text == "monolog")
                         {
-                            button2.BackColor = Color.Green;
+                            button10.BackColor = Color.Green;
+                            correct++;
+                            label2.Text = correct.ToString();
                         }
                         else
                         {
-                            button2.BackColor = Color.Red;
+                            button10.BackColor = Color.Red;
+                            wrong++;
+                            label4.Text = correct.ToString();
                         }
                         break;
                     case 11:
                         if (textBox1.Text == "Etnografya müzesinde")
                         {
                             button2.BackColor = Color.Green;
+                            correct++;
+                            label2.Text = correct.ToString();
                         }
                         else
                         {
                             button2.BackColor = Color.Red;
+                            wrong++;
+                            label4.Text = correct.ToString();
                         }
                         break;
                     case 12:
                         if (textBox1.Text == "Ağrı Dağı")
                         {
                             button2.BackColor = Color.Green;
+                            correct++;
+                            label2.Text = correct.ToString();
                         }
                         else
                         {
                             button2.BackColor = Color.Red;
+                            wrong++;
+                            label4.Text = correct.ToString();
                         }
                         break;
                     case 13:
                         if (textBox1.Text == "Nil Nehri")
                         {
                             button2.BackColor = Color.Green;
+                            correct++;
+                            label2.Text = correct.ToString();
                         }
                         else
                         {
                             button2.BackColor = Color.Red;
+                            wrong++;
+                            label4.Text = correct.ToString();
                         }
                         break;
                     case 14:
                         if (textBox1.Text == "Mars")
                         {
                             button2.BackColor = Color.Green;
+                            correct++;
+                            label2.Text = correct.ToString();
+
                         }
                         else
                         {
                             button2.BackColor = Color.Red;
+                            wrong++;
+                            label4.Text = correct.ToString();
                         }
                         break;
                     case 15:
                         if (textBox1.Text == "Gabriel García Márquez")
                         {
                             button2.BackColor = Color.Green;
+                            correct++;
+                            label2.Text = correct.ToString();
                         }
                         else
                         {
                             button2.BackColor = Color.Red;
+                            wrong++;
+                            label4.Text = correct.ToString();
                         }
                         break;
                     case 16:
                         if (textBox1.Text == "Ukrayna")
                         {
                             button2.BackColor = Color.Green;
+                            correct++;
+                            label2.Text = correct.ToString();
                         }
                         else
                         {
                             button2.BackColor = Color.Red;
+                            wrong++;
+                            label4.Text = correct.ToString();
                         }
                         break;
                     case 17:
                         if (textBox1.Text == "İstanbul")
                         {
                             button2.BackColor = Color.Green;
+                            correct++;
+                            label2.Text = correct.ToString();
                         }
                         else
                         {
                             button2.BackColor = Color.Red;
+                            wrong++;
+                            label4.Text = correct.ToString();
                         }
                         break;
                     case 18:
                         if (textBox1.Text == "Armstrong")
                         {
                             button2.BackColor = Color.Green;
+                            correct++;
+                            label2.Text = correct.ToString();
                         }
                         else
                         {
                             button2.BackColor = Color.Red;
+                            wrong++;
+                            label4.Text = correct.ToString();
                         }
                         break;
                     case 19:
                         if (textBox1.Text == "Maraton")
                         {
                             button2.BackColor = Color.Green;
+                            correct++;
+                            label2.Text = correct.ToString();
                         }
                         else
                         {
                             button2.BackColor = Color.Red;
+                            wrong++;
+                            label4.Text = correct.ToString();
                         }
                         break;
                     case 20:
                         if (textBox1.Text == "Uruguay")
                         {
                             button2.BackColor = Color.Green;
+                            correct++;
+                            label2.Text = correct.ToString();
                         }
                         else
                         {
                             button2.BackColor = Color.Red;
+                            wrong++;
+                            label4.Text = correct.ToString();
                         }
                         break;
                     case 21:
                         if (textBox1.Text == "Antalya")
                         {
                             button2.BackColor = Color.Green;
+                            correct++;
+                            label2.Text = correct.ToString();
                         }
                         else
                         {
                             button2.BackColor = Color.Red;
+                            wrong++;
+                            label4.Text = correct.ToString();
                         }
                         break;
                     case 22:
                         if (textBox1.Text == "Sakarya Meydan Muharebesi" | textBox1.Text == "Başkomutanlık Meydan Muharebesi")
                         {
                             button2.BackColor = Color.Green;
+                            correct++;
+                            label2.Text = correct.ToString();
                         }
                         else
                         {
                             button2.BackColor = Color.Red;
+                            wrong++;
+                            label4.Text = correct.ToString();
                         }
                         break;
                     case 23:
                         if (textBox1.Text == "Jüpiter")
                         {
                             button2.BackColor = Color.Green;
+                            correct++;
+                            label2.Text = correct.ToString();
                         }
                         else
                         {
                             button2.BackColor = Color.Red;
+                            wrong++;
+                            label4.Text = correct.ToString();
                         }
                         break;
                     case 24:
                         if (textBox1.Text == "Auguste Rodin")
                         {
                             button2.BackColor = Color.Green;
+                            correct++;
+                            label2.Text = correct.ToString();
                         }
                         else
                         {
                             button2.BackColor = Color.Red;
+                            wrong++;
+                            label4.Text = correct.ToString();
                         }
                         break;
                 }
