@@ -154,7 +154,7 @@ namespace PassaPassword
                         }
                         break;
                     case 10:
-                        if (textBox1.Text == "monolog")
+                        if (textBox1.Text == "Mustafa Kemal Atatürk")
                         {
                             button10.BackColor = Color.Green;
                             correct++;
@@ -373,6 +373,7 @@ namespace PassaPassword
             linkLabel1.Text = "Next Question";
             ques++;
             this.Text = ques.ToString();
+            textBox1.Text = "";
             if (ques == 1)
             {
                 richTextBox1.Text = "Çanakkale Zaferi’nin dahil olduğu savaş hangisidir?";
